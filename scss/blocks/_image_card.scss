@@ -1,0 +1,21 @@
+.image_card {
+    position: relative;
+}
+
+
+.image_card + .image_card {
+    margin-left: 32px;
+}
+
+// or 
+// .image_card {
+//     & +& {
+//         margin-left: 32px;
+//     }
+// }
+
+.img-card_info {
+    position: absolute;
+    right: -46px;
+    bottom: 87px;
+}

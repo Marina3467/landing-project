@@ -1,0 +1,15 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6875;
+    color: $black-text;
+}
+
+.container {
+    max-width: 1140px; // Максимальная ширина
+    // Свойства ниже выравнивают элементы по центру
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
